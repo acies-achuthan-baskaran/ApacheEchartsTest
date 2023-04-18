@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "echarts"
+version = "0.1.0"
+description = ""
+authors = ["Achuthan Baskaran <achuthan1905@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+pyecharts = "^2.0.3"
+gapminder = "^0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
